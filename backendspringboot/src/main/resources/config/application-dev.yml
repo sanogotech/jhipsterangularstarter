@@ -32,8 +32,8 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:h2:file:./target/h2db/db/myhispter;DB_CLOSE_DELAY=-1
-    username: myhispter
+    url: jdbc:h2:file:./target/h2db/db/backendspringboot;DB_CLOSE_DELAY=-1
+    username: backendspringboot
     password:
     hikari:
       poolName: Hikari
@@ -93,7 +93,7 @@ jhipster:
     authentication:
       jwt:
         # This token must be encoded using Base64 and be at least 256 bits long (you can type `openssl rand -base64 64` on your command line to generate a 512 bits one)
-        base64-secret: OTJhYTg1NWI5Y2FkZDY5Y2IzODBkNWY5MTRmOTk2NGEyNTg3YzNjMDUwNGQyMTlkZGJkNTFiOWI1YzNiZmIyZGQ1MWFiYmJkNGQxN2NkNDBmNGEzZDc1NzgxMjc2NDgyMzA0YzA1ZTNkN2NjNjllYzVkNTg1OWNjZGFhNTlhYTg=
+        base64-secret: MDExMDcwOTFhZTY2YTVjMzY2NGFhYTBjNTc2ODVjZDU3NzQwMzViODY2MjFlMzdhMWM1YzlkYmZmY2Q5MTE0OGJmZDU1YTRjY2JhOWFkOWEwMWU5MGQ3MWIxOWJkNTEwYzIzMmMzOTMzOGYyMGUyNmQwNmMzNjZlZmFhMjcxZjI=
         # Token is valid 24 hours
         token-validity-in-seconds: 86400
         token-validity-in-seconds-for-remember-me: 2592000

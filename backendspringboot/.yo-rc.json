@@ -2,7 +2,7 @@
   "generator-jhipster": {
     "skipClient": true,
     "applicationType": "monolith",
-    "baseName": "myhispter",
+    "baseName": "backendspringboot",
     "jhipsterVersion": "7.4.1",
     "skipUserManagement": false,
     "skipCheckLengthOfIdentifier": false,
@@ -14,7 +14,7 @@
     "blueprints": [],
     "otherModules": [],
     "pages": [],
-    "creationTimestamp": 1660562133674,
+    "creationTimestamp": 1660585645622,
     "serviceDiscoveryType": "no",
     "reactive": false,
     "authenticationType": "jwt",
@@ -33,7 +33,9 @@
     "enableSwaggerCodegen": false,
     "enableTranslation": true,
     "nativeLanguage": "fr",
-    "jwtSecretKey": "OTJhYTg1NWI5Y2FkZDY5Y2IzODBkNWY5MTRmOTk2NGEyNTg3YzNjMDUwNGQyMTlkZGJkNTFiOWI1YzNiZmIyZGQ1MWFiYmJkNGQxN2NkNDBmNGEzZDc1NzgxMjc2NDgyMzA0YzA1ZTNkN2NjNjllYzVkNTg1OWNjZGFhNTlhYTg=",
+    "monorepository": true,
+    "skipCommitHook": true,
+    "jwtSecretKey": "MDExMDcwOTFhZTY2YTVjMzY2NGFhYTBjNTc2ODVjZDU3NzQwMzViODY2MjFlMzdhMWM1YzlkYmZmY2Q5MTE0OGJmZDU1YTRjY2JhOWFkOWEwMWU5MGQ3MWIxOWJkNTEwYzIzMmMzOTMzOGYyMGUyNmQwNmMzNjZlZmFhMjcxZjI=",
     "languages": ["fr", "en"],
     "enableGradleEnterprise": false,
     "clientFramework": "angularX",
@@ -41,6 +43,7 @@
     "clientTheme": "none",
     "clientThemeVariant": "",
     "withAdminUi": true,
-    "skipServer": true
+    "entities": ["Category", "Product", "Customer", "Address"],
+    "lastLiquibaseTimestamp": 1660587785000
   }
 }

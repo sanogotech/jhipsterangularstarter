@@ -24,7 +24,8 @@ entity Customer {
     firstName String,
     lastName String,
     email String,
-    telephone String
+    telephone String,
+	occupation  String
 }
 
 entity Address {
@@ -48,7 +49,8 @@ relationship ManyToMany {
 }
 
 paginate Customer, Product, Category with pagination
-paginate Address with pager
+paginate Address with pagination
 paginate Product with infinite-scroll
 
-service Category with serviceClass
+
+service all with serviceImpl
