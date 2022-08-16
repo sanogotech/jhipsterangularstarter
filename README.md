@@ -2,6 +2,7 @@
 
 ## Docs
 
+- https://agency04.com/creating-a-spring-petclinic-app-with-jhipster/
 - https://www.jhipster.tech/separating-front-end-and-api/
 - https://www.jhipster.tech/jdl/options
 
