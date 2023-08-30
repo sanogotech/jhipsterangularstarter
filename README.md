@@ -33,6 +33,11 @@ Assurez-vous de consulter la documentation officielle de JHipster pour obtenir l
 
 So using nvm I switched the node version to v8.12.0 with the below command:
 Install several version of Node.
+
+** Install MVN ON Windows
+- https://4geeks.com/how-to/nvm-install-windows
+- https://github.com/coreybutler/nvm-windows/releases/download/1.1.7/nvm-setup.zip
+  
 ```
 > nvm install 8.12.0 // to install the version I wanted
 
