@@ -12,7 +12,7 @@
 ```
 npm install -g generator-jhipster
 jhipster
-
+npm cache clean --force
 ```
 
 ##  Jhipster Matrice de compatibilité
@@ -45,6 +45,7 @@ Install several version of Node.
 
 ```
 
+npm cache clean --force
 ## Generating only a front-end or a back-end application
 
 You can choose to generate only a JHipster back-end or JHipster front-end application. At generation time, this is only a matter of choosing flags which are described in our [application generation documentation]({{ site.url }}/creating-an-app/):
